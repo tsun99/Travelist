@@ -1,28 +1,29 @@
-# Travelist
+# Travelist: Your Travel Preparations Assistant
 
-**Travel preparations prompter application**
+## Introduction
+Welcome to Travelist, a comprehensive travel preparations prompter application developed by a dedicated team of four. As part of this dynamic team, I focused on the majority of the frontend development and played in the backend implementation of comments. Our project, Travelist, is designed to streamline your travel planning process with a responsive and intuitive website.
 
-A responsive design website should be able to present a list of travel destinations with suggested items that should be taken for the holiday.
+![image](https://github.com/tsun99/Travelist/assets/49662627/6fc087dd-871e-42c9-ab51-695acf225c4a)
+![image](https://github.com/tsun99/Travelist/assets/49662627/bb8a388b-f749-4f15-b217-e2426c59cb1e)
+## Implemented Features
 
-Required features:
+### Core Functionality
+- **Responsive Design:** Travelist is built with a responsive design, ensuring a seamless experience across various devices.
+- **Travel Destinations and Suggested Items:** Our website presents a curated list of travel destinations, each accompanied by suggested items to bring checklist tailored for your holiday.
 
-- A view for a list of all entries
-- A separate view for every prompt (more detailed)
-- Different users should be able to create, delete, and update entries
-- Users should be able to search for prompts based on the location/place they enter
-- Authentication
+### User Interaction
+- **All Entries View:** Users can browse a comprehensive view of all entries, offering a snapshot of available destinations.
+- **Detailed Prompt Views:** Each travel destination has its own detailed view, providing in-depth information and a checklist of suggested items to bring on the trip.
+- **User-Generated Content:** Users have the ability to create, delete, and update entries, fostering a dynamic and user-responsive environment.
+- **Search Functionality:** Travelist includes a search feature, enabling users to find prompts based on specific locations or places. Editing the search bar field prompts a suggestion call to the backend with a debounce to lessen the strain.
 
-Extra Features:
+### Security and Accessibility
+- **Authentication:** We've implemented robust authentication measures to ensure user data security and privacy.
 
-- Adding comments, rating
-- Uploading pictures
-- Showing map elements that would point to the place in question
+### Additional Features
+- **Comments and Rating System:**
+- **Interactive Maps:** Our website integrates map elements, pinpointing each destination for easy geographical referencing.
 
-## Startup
+### Video DEMO
+- https://youtu.be/3I08P2_NrTU
 
-1. Open Visual Studio 2022 (https://visualstudio.microsoft.com) or later and clone this project. Make sure you have:
-   - "ASP.NET and web development" workload
-   - Node.js (https://nodejs.org/en/download)
-2. Run the app (`Ctrl+F5`).
-
- On the first run, the build process restores npm dependencies, which can take several minutes. Subsequent builds are much faster.
