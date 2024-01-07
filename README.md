@@ -1,7 +1,7 @@
 # Travelist: Your Travel Preparations Assistant
 
 ## Introduction
-Welcome to Travelist, a comprehensive travel preparations prompter application developed by a dedicated team of four. As part of this dynamic team, I focused on the majority of the frontend development and played in the backend implementation of comments. Our project, Travelist, is designed to streamline your travel planning process with a responsive and intuitive website.
+Welcome to Travelist, a comprehensive travel preparations prompter application developed by a dedicated team of four. As part of this dynamic team, I focused on the majority of the frontend development, also implemented the functionality of comments on the backend. Our project, Travelist, is designed to streamline your travel planning process with a responsive and intuitive website.
 
 ![image](https://github.com/tsun99/Travelist/assets/49662627/6fc087dd-871e-42c9-ab51-695acf225c4a)
 ![image](https://github.com/tsun99/Travelist/assets/49662627/bb8a388b-f749-4f15-b217-e2426c59cb1e)
