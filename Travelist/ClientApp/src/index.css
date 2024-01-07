@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+ :root {
+  --footer-height: 4.5rem;
+  --header-height: 4.5rem;
+} 
+
+h1 {
+  font-size: 2rem;
+}
+

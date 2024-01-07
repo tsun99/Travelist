@@ -1,0 +1,37 @@
+@keyframes checkboxFadeIn {
+    from {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+  
+  .checkbox-animate:checked {
+    animation: checkboxFadeIn 0.3s ease-in-out forwards;
+  }
+
+  .strike-through {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .strike-through::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    width: 100%;
+    background: green;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left center;
+  }
+  
+  .strike-through.checked::after {
+    transform: scaleX(1);
+  }

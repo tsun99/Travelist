@@ -1,0 +1,68 @@
+const mockDestinations = [
+  {
+    id: 1,
+    userId: 101,
+    title: 'Beautiful Beach Paradise',
+    city: 'Maldives',
+    text: 'Explore the stunning beaches of the Maldives.',
+    imageUrl: '/src/public/destinations/maldives.jpg',
+  },
+  {
+    id: 2,
+    userId: 102,
+    title: 'Historical Rome Tour',
+    city: 'Rome',
+    text: 'Discover the rich history of Rome and its ancient ruins.',
+    imageUrl: '/src/public/destinations/rome.jpg',
+  },
+  {
+    id: 3,
+    userId: 103,
+    title: 'Mountain Retreat in Switzerland',
+    city: 'Swiss Alps',
+    text: 'Enjoy a peaceful escape in the Swiss Alps.',
+    imageUrl: '/src/public/destinations/swiss.jpg',
+  },
+  {
+    id: 4,
+    userId: 104,
+    title: 'Scenic Santorini Getaway',
+    city: 'Santorini',
+    text: 'Experience the beauty of Santorini with its iconic sunsets.',
+    imageUrl: '/src/public/destinations/santorini.jpg',
+  },
+  {
+    id: 5,
+    userId: 105,
+    title: 'Cultural Exploration in Kyoto',
+    city: 'Kyoto',
+    text: 'Immerse yourself in Kyoto\'s rich cultural heritage.',
+    imageUrl: '/src/public/destinations/kyoto.jpg',
+  },
+  {
+    id: 6,
+    userId: 106,
+    title: 'Tropical Paradise in Bali',
+    city: 'Bali',
+    text: 'Relax on Bali\'s beautiful beaches and lush landscapes.',
+    imageUrl: '/src/public/destinations/bali.jpg',
+  },
+  {
+    id: 7,
+    userId: 107,
+    title: 'Historic Cairo Adventure',
+    city: 'Cairo',
+    text: 'Explore the ancient wonders of Cairo, Egypt.',
+    imageUrl: '/src/public/destinations/cairo.jpg',
+  },
+  {
+    id: 8,
+    userId: 108,
+    title: 'Vibrant Tokyo Experience',
+    city: 'Tokyo',
+    text: 'Discover the modern and vibrant culture of Tokyo, Japan.',
+    imageUrl: '/src/public/destinations/tokyo.jpg',
+  },
+];
+
+export default mockDestinations;

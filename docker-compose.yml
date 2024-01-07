@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  travelist:
+    image: travelist
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"

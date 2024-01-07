@@ -1,0 +1,31 @@
+# Ignore the test directory
+**/test/
+
+# Ignore the node_modules directory
+**/node_modules/
+
+# Ignore local .env files
+*.env
+
+# Ignore git directory and files
+.git
+.gitignore
+
+# Ignore other unnecessary files
+*.md
+*.log
+.dockerignore
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore the build output directory
+**/build/
+
+# Ignore the Docker Compose override files
+docker-compose.override.yml
