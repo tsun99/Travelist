@@ -24,6 +24,6 @@ Welcome to Travelist, a comprehensive travel preparations prompter application d
 - **Comments and Rating System:**
 - **Interactive Maps:** Our website integrates map elements, pinpointing each destination for easy geographical referencing.
 
-### Video DEMO
+## Video DEMO
 - https://youtu.be/3I08P2_NrTU
 
